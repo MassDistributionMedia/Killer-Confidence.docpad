@@ -30,21 +30,35 @@
 		"npm": "1.1.x"
 	},
 	"dependencies": {
-		"docpad": "6.x",
-		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-eco": "2.x",
-		"docpad-plugin-marked": "2.x",
-		"docpad-plugin-partials": "2.x",
-		"docpad-plugin-stylus": "2.x",
-		"docpad-plugin-text": "2.x"
+		"docpad": "~6.6.x",
+        "docpad-plugin-cleanurls": "2.x",
+        "docpad-plugin-coffeescript": "2.x",
+        "docpad-plugin-eco": "2.x",
+        "docpad-plugin-less": "2.x",
+        "docpad-plugin-marked": "2.x",
+        "docpad-plugin-partials": "2.x",
+        "docpad-plugin-stylus": "2.x",
+        "docpad-plugin-text": "2.x",
+        "docpad-plugin-pygments": "~2.0.3"
 	},
 	"devDependencies": {
 		"docpad-plugin-livereload": "2.x"
 	},
-    "scripts": {
-        "start": "node node_modules/docpad/bin/docpad-server"
-    },
-	"main": "node_modules/docpad/bin/docpad-server",
-    "subdomain": "killer-confidence-mdm",
-    "domains": "killer-confidence.com"
+    "bundleDependencies": [
+    "docpad",
+    "docpad-plugin-cleanurls",
+    "docpad-plugin-coffeescript",
+    "docpad-plugin-eco",
+    "docpad-plugin-less",
+    "docpad-plugin-marked",
+    "docpad-plugin-partials",
+    "docpad-plugin-stylus",
+    "docpad-plugin-text",
+    "docpad-plugin-pygments"
+  ],
+  "main": "node_modules/docpad/bin/docpad-server",
+  "subdomain": "killer-confidence-mdm",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+  }
 }
