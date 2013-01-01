@@ -41,6 +41,9 @@
 	"devDependencies": {
 		"docpad-plugin-livereload": "2.x"
 	},
+    "scripts" : {
+        "start" : "node node_modules/docpad/bin/docpad-server",
+    },
 	"main": "node_modules/docpad/bin/docpad-server",
     "subdomain": "killer-confidence-mdm",
     "domains": "killer-confidence.com"
