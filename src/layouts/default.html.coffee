@@ -1,7 +1,3 @@
----
-title: 'Killer Confidence'
----
-
 doctype 5                                                                                                                                                                                         
 html ->                                                                                                                                                                                              
   head ->                                                                                                                                                                                            
@@ -21,12 +17,12 @@ html ->
 Pod/i))) {\r\n   location.replace("http://augustinas.eu/dev/4/mobile.html");\r\n};\r\n//'                                                                                                            
     link href: 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic', rel: 'stylesheet', type: 'text/css'                              
     style '#page {opacity:0;}'                                                                                                                                                                       
-  body '#page' data-spy: 'scroll', data-offset: '10', ->                                                                                                                                             
+  body '#page', 'data-spy': 'scroll', 'data-offset': '10', ->                                                                                                                                             
     header ->                                                                                                                                                                                        
       div '.navbar.navbar-fixed-top', ->                                                                                                                                                             
         div '.navbar-inner', ->                                                                                                                                                                      
           div '.container-fluid', ->                                                                                                                                                                 
-            a '.btn.btn-navbar' data-toggle: 'collapse', data-target: '.nav-collapse', ->                                                                                                            
+            a '.btn.btn-navbar', 'data-toggle': 'collapse', 'data-target': '.nav-collapse', ->                                                                                                            
               span '.icon-bar'                                                                                                                                                                       
               span '.icon-bar'                                                                                                                                                                       
               span '.icon-bar'                                                                                                                                                                       
@@ -49,7 +45,7 @@ Pod/i))) {\r\n   location.replace("http://augustinas.eu/dev/4/mobile.html");\r\n
     footer '.footer', ->                                                                                                                                                                             
       div '.row', ->                                                                                                                                                                                 
         div '.span2', ->                                                                                                                                                                             
-          a '.btn.btn-inverse' href: '', ->                                                                                                                                                          
+          a '.btn.btn-inverse', href: '', ->                                                                                                                                                          
             i '.icon-bookmark'                                                                                                                                                                       
             text 'Bookmark'                                                                                                                                                                          
         comment 'sample button'                                                                                                                                                                      
