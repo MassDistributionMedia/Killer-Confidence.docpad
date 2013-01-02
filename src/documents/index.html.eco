@@ -1,54 +1,7 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Killer-Confidence.com</title>
-<link href="styles/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="styles/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-<link href="styles/render.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.parallax-1.1.js"></script>
-<script type="text/javascript" src="scripts/bootstrap-scrollspy.js"></script>
-<script type="text/javascript" src="scripts/bootstrap-collapse.js"></script>
-<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
-
-<script type="text/javascript">
-<!--
-if (screen.width <= 699) {
-document.location = "http://augustinas.eu/dev/4/mobile.html";
-};
-if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-   location.replace("http://augustinas.eu/dev/4/mobile.html");
-};
-//-->
-</script>
-
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
-<style> #page {opacity:0;}</style>
-
-</head>
-
-
-<body data-spy="scroll" data-offset="10" id="page">
-<header>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container-fluid"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-                <div class="nav-collapse">
-                    <ul id="navi" class="nav">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#second">About</a></li>
-                        <li><a href="#third">Portfolio</a></li>
-                        <li><a href="#fourth">Fourth</a></li>
-                        <li><a href="#fifth">Contact</a></li>
-                    </ul>
-                </div>
-          </div>
-        </div>
-    </div>
-</header>
+---
+name: 'Home'
+layout: 'default'
+---
 
 <div id="home">
     <div class="story">
@@ -203,51 +156,3 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
     </div>
 </div>
 <!--#fifth-->
-
-<!-- footer --> 
-<footer class="footer"> 
-	<div class="row">
-	<div class="span2"><a class="btn btn-inverse" href=""><i class="icon-bookmark"></i>Bookmark</a> </div> <!-- sample button -->
-    <div class="span3"><p> &copy; Portfolio Igniter 2012</p></div>
-    </div>
-</footer>
-<!-- /footer --> 
-
-<!-- Le JS --> 
-<script>
-$(document).ready(function(){
-	$('#navi').localScroll(800);
-	RepositionNav();
-	$(window).resize(function(){
-		RepositionNav();
-	});	
-	// .parallax(xPosition, adjuster, inertia, outerHeight) options:
-	// xPosition - Horizontal position of the element.
-	// adjuster - y position to start from.
-	// inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling.
-	// outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport.
-	$('#intro').parallax("50%", 0, 0.1, true);
-	$('#second').parallax("50%", 0, 0.1, true);
-	$('.bg').parallax("5%", 3000, 0.8, true);
-	$('.bg2').parallax("30%", 3500, 0.8, true);
-	$('#third').parallax("50%", 0, 0.1, true);
-	$('#fourth').parallax("50%", 0, 0.1, true);
-})
-	$('#navbar').scrollspy();
-</script>
-
-<script>
-$(".collapse").collapse()
-</script>
-
-
-<!-- page fade effect - this simple trick first waits for page to load(images, content) and after it's loaded fades it. You can remove it by deleting this section. -->
-<!-- read documentation -->
-<script>
-$(document).ready(function() {
-	$('#page').fadeTo(1500, 1);
-});
-</script>
-<!-- /page fade effect -->
-</body>
-</html>
