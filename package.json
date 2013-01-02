@@ -1,15 +1,15 @@
 {
 	"name": "kc-foundation.docpad",
-	"version": "0.1.0",
+	"version": "0.1.0-5",
 	"private": true,
 	"description": "Killer-Confidence.com website.",
 	"homepage": "http://killer-confidence.com/",
 	"keywords": [
 		"woman empowerment",
-        "girl power",
-        "killer confidence",
-        "killer confidence quotes",
-        "Kari Adams"
+		"girl power",
+		"killer confidence",
+		"killer confidence quotes",
+		"Kari Adams"
 	],
 	"author": "MDM Inc <mike@mdm.cm>",
 	"maintainers": [
@@ -21,44 +21,44 @@
 	"bugs": {
 		"url": "https://github.com/MassDistributionMedia/Killer-Confidence.com/issues"
 	},
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/MassDistributionMedia/Killer-Confidence.com.git"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MassDistributionMedia/Killer-Confidence.com.git"
 	},
-	"engines" : {
+	"engines": {
 		"node": "0.8.x",
 		"npm": "1.1.x"
 	},
 	"dependencies": {
 		"docpad": "~6.6.x",
-        "docpad-plugin-cleanurls": "2.x",
-        "docpad-plugin-coffeescript": "2.x",
-        "docpad-plugin-eco": "2.x",
-        "docpad-plugin-less": "2.x",
-        "docpad-plugin-marked": "2.x",
-        "docpad-plugin-partials": "2.x",
-        "docpad-plugin-stylus": "2.x",
-        "docpad-plugin-text": "2.x",
-        "docpad-plugin-pygments": "~2.0.3"
+		"docpad-plugin-cleanurls": "2.x",
+		"docpad-plugin-coffeescript": "2.x",
+		"docpad-plugin-eco": "2.x",
+		"docpad-plugin-less": "2.x",
+		"docpad-plugin-marked": "2.x",
+		"docpad-plugin-partials": "2.x",
+		"docpad-plugin-stylus": "2.x",
+		"docpad-plugin-text": "2.x",
+		"docpad-plugin-pygments": "~2.0.3"
 	},
 	"devDependencies": {
 		"docpad-plugin-livereload": "2.x"
 	},
-    "bundleDependencies": [
-    "docpad",
-    "docpad-plugin-cleanurls",
-    "docpad-plugin-coffeescript",
-    "docpad-plugin-eco",
-    "docpad-plugin-less",
-    "docpad-plugin-marked",
-    "docpad-plugin-partials",
-    "docpad-plugin-stylus",
-    "docpad-plugin-text",
-    "docpad-plugin-pygments"
-  ],
-  "main": "node_modules/docpad/bin/docpad-server",
-  "subdomain": "killer-confidence-mdm",
-  "scripts": {
-    "start": "node_modules/docpad/bin/docpad-server"
-  }
+	"bundleDependencies": [
+		"docpad",
+		"docpad-plugin-cleanurls",
+		"docpad-plugin-coffeescript",
+		"docpad-plugin-eco",
+		"docpad-plugin-less",
+		"docpad-plugin-marked",
+		"docpad-plugin-partials",
+		"docpad-plugin-stylus",
+		"docpad-plugin-text",
+		"docpad-plugin-pygments"
+	],
+	"main": "node_modules/docpad/bin/docpad-server",
+	"subdomain": "killer-confidence-mdm",
+	"scripts": {
+		"start": "node_modules/docpad/bin/docpad-server"
+	}
 }
