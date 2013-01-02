@@ -6,7 +6,7 @@ html ->
     link href: 'styles/bootstrap.css', rel: 'stylesheet', type: 'text/css'                                                                                                                           
     link href: 'styles/bootstrap-responsive-min.css', rel: 'stylesheet', type: 'text/css'                                                                                                            
     link href: 'styles/render.css', rel: 'stylesheet', type: 'text/css'                                                                                                                              
-    script type: 'text/javascript', src: 'http://ajax.aspnetcdn.com/ajax/jQuery/jquery.1.7.1.min.js'                                                                                                 
+    script type: 'text/javascript', src: 'scripts/jquery.js'                                                                                                 
     script type: 'text/javascript', src: 'scripts/jquery-parallax-1-1.js'                                                                                                                            
     script type: 'text/javascript', src: 'scripts/bootstrap-scrollspy.js'                                                                                                                            
     script type: 'text/javascript', src: 'scripts/bootstrap-collapse.js'                                                                                                                             
