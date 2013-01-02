@@ -39,7 +39,7 @@ Pod/i))) {\r\n   location.replace("http://augustinas.eu/dev/4/mobile.html");\r\n
                 li ->                                                                                                                                                                                
                   a href: '#fifth', 'Contact'    
                   
-    -> @content
+    @content
         
     comment 'footer'                                                                                                                                                                                 
     footer '.footer', ->                                                                                                                                                                             
