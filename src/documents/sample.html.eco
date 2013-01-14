@@ -1,0 +1,9 @@
+---
+layout: default
+name: something
+---
+
+<p>
+<% if true: %>
+</p>
+<% end %>
