@@ -1,40 +1,37 @@
 {
-	"name": "kc-foundation.docpad",
-	"version": "0.1.0-15",
-	"private": true,
-	"description": "Killer-Confidence.com website.",
-	"homepage": "http://killer-confidence.com/",
+	"name": "twitter-bootstrap.docpad",
+	"version": "0.9.0",
+	"description": "Twitter Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
+	"homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
 	"keywords": [
-		"woman empowerment",
-		"girl power",
-		"killer confidence",
-		"killer confidence quotes",
-		"Kari Adams"
+		"docpad-skeleton",
+		"docpad",
+		"website",
+		"bootstrap",
+		"twitter bootstrap"
 	],
-	"author": "MDM Inc <mike@mdm.cm>",
+	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
 	"maintainers": [
-		"Michael Mooring <mike@mdm.cm>"
+		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
 	],
 	"contributors": [
-		"Michael Mooring <mike@mdm.cm>"
+		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
 	],
 	"bugs": {
-		"url": "https://github.com/MassDistributionMedia/Killer-Confidence.com/issues"
+		"url": "https://github.com/docpad/twitter-bootstrap.docpad/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/MassDistributionMedia/Killer-Confidence.com.git"
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/docpad/twitter-bootstrap.docpad.git"
 	},
-	"engines": {
+	"engines" : {
 		"node": "0.8.x",
-		"docpad": "6.x"
+		"npm": "1.1.x"
 	},
 	"dependencies": {
 		"docpad": "6.x",
 		"docpad-plugin-cleanurls": "2.x",
 		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-cachr": "2.x",
-		"docpad-plugin-coffeekup": "2.x",
 		"docpad-plugin-eco": "2.x",
 		"docpad-plugin-less": "2.x",
 		"docpad-plugin-marked": "2.x",
@@ -45,25 +42,5 @@
 	"devDependencies": {
 		"docpad-plugin-livereload": "2.x"
 	},
-	"bundleDependencies": [
-		"docpad",
-		"docpad-plugin-cleanurls",
-		"docpad-plugin-coffeescript",
-		"docpad-plugin-cachr",
-		"docpad-plugin-coffeekup",
-		"docpad-plugin-eco",
-		"docpad-plugin-less",
-		"docpad-plugin-marked",
-		"docpad-plugin-partials",
-		"docpad-plugin-stylus",
-		"docpad-plugin-text"
-	],
-	"main": "node_modules/docpad/bin/docpad-server",
-	"subdomain": "killer-confidence-mdm",
-	"domains": [
-		"killer-confidence.com"
-	],
-	"scripts": {
-		"start": "node_modules/docpad/bin/docpad-server"
-	}
+	"main": "node_modules/docpad/bin/docpad-server"
 }

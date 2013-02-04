@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.span12{width:100%;}
+#second .span4{width:375px;}
+.span12, .container {
+    width: 1198px;
+}
+img{max-width:none;}
+#third {
+	background:url(../img/third_bg.jpg) 50% 0 repeat fixed;
+}

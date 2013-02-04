@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title><%= @getPreparedTitle() %></title>
+
+<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+	<meta name="author" content="<%= @site.author or '' %>" />
+
+	<!-- Output DocPad produced meta elements -->
+	<%- @getBlock('meta').toHTML() %>
+
+	<!-- Styles -->
+	<%- @getBlock('styles').add(["/styles/reset.css","/vendor/twitter-bootstrap/css/bootstrap.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css","/styles/render.css","/styles/style.css"]).toHTML() %>	
+
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "http://augustinas.eu/dev/4/mobile.html";
+};
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("http://augustinas.eu/dev/4/mobile.html");
+};
+//-->
+</script>
+
+<!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link href="css/ie.css" rel="stylesheet" type="text/css" media="all">
+<![endif]-->
+
+<style> #page {opacity:0;}</style>
+
+</head>
+
+<body data-spy="scroll" data-offset="10" id="page">
+<header>
+    <div class="navbar navbar-fixed-top">
+    
+        <div class="navbar-inner">
+       
+            <div class="container"> 
+            <div class="row">
+             <a href="#" class="brand"><img src="img/logo.png" width="229" height="32" alt="logo"></a>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>                         
+                <div class="nav-collapse">
+                    <ul id="navi" class="nav">
+                        <li><a href=".home">Home</a></li>
+                        <li><a href=".home">About</a></li>
+                        <li><a href=".blog">Blogs</a></li>
+                        <li><a href=".convo">Conversations</a></li>
+                        <li><a href=".social">Follow</a></li>
+                    </ul>
+                    </div>
+                </div>
+          </div>
+        </div>
+    </div>
+
+</header>
+<%- @content %>
+<!-- footer --> 
+<footer class="footer"> 
+    <div class="container">
+        <div class="row">
+    <span>&copy;2013 Killer-Confidence.com</span>
+        </div>
+    </div>
+</footer>
+<!-- /footer --> 
+
+<!-- Scripts -->
+<%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/jquery.localscroll-1.2.7-min.js","/vendor/jquery.parallax-1.1.js","/vendor/jquery.scrollTo-1.4.2-min.js","/vendor/twitter-bootstrap/js/bootstrap.min.js","/scripts/script.js"]).toHTML() %>
+</body>
+</html>

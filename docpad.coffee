@@ -14,18 +14,30 @@ docpadConfig = {
 			# The production url of our website
 			url: "http://killer-confidence.com"
 
+			# Here are some old site urls that you would like to redirect from
+			oldUrls: [
+				''
+			]
+
 			# The default title of our website
 			title: "Killer Confidence"
 
 			# The website description (for SEO)
 			description: """
-				CONFIDENCE.
+				Killer Confidence is more than a site - it’s a movement - created to celebrate, empower, and embrace women as they heal and learn to love themselves just as they are.  It’s time to put an end to body shame and to squash the notion that “thin is in” and in order to do so, we must build ‘Killer Confidence’.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				Woman Empowerment, Killer Confidence, Killer Confidence Quotes, Girl Power
+				women empowerment, Confidence, inner-confidence, self-confidence, killer confidence quotes, girl empowerment
 				"""
+
+			# The website author's name
+			author: "Mass Distribution Media"
+
+			# The website author's email
+			email: "mike@mdm.cm"
+
 
 
 		# -----------------------------
@@ -51,6 +63,20 @@ docpadConfig = {
 		getPreparedKeywords: ->
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
+
+
+	# =================================
+	# Collections
+	# These are special collections that our website makes available to us
+
+	collections:
+		# For instance, this one will fetch in all documents that have pageOrder set within their meta data
+		pages: (database) ->
+			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+
+		# This one, will fetch in all documents that have the tag "post" specified in their meta data
+		posts: (database) ->
+			database.findAllLive({tags: $has: ['post']}, [date:-1])
 
 
 	# =================================
@@ -81,6 +107,7 @@ docpadConfig = {
 				else
 					next()
 }
+
 
 # Export our DocPad Configuration
 module.exports = docpadConfig
