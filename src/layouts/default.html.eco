@@ -54,6 +54,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
                         <li><a href="#social">Follow</a></li>
                     </ul>
                     </div>
+                    <a href="#" id="upTop" class="pull-right">Top <strong>^</strong></a>
                 </div>
           </div>
         </div>
@@ -66,6 +67,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
     <div class="container">
         <div class="row">
     <span>&copy;2013 Killer-Confidence.com</span>
+    <span class="pull-right muted"> Web &copy; <a class="muted"title="MassDistributionMedia.com"href="http://massdistributionmedia.com">MDM</a> </span>
         </div>
     </div>
 </footer>

@@ -83,6 +83,10 @@ margin-left:0;
 }
 .navbar-inner {
 	background:#000;
+	height: 33px;
+}
+.nav-collapse {
+clear: none;
 }
 .read_more:hover {
 	background: #5E823E;
@@ -112,11 +116,38 @@ margin-left:0;
 .navbar .brand {
 	padding: 5px 20px 0;
 }
-.navbar .nav > li > a {
+.navbar .nav > li > a { 
 	font-family: 'open_sans_lightregular', sans-serif;
+	padding: 16px 10px 4px;
 }
-.alert{position:fixed;top: 111px;z-index: 9;}
 .btn.btn-navbar{ display:none;}
+.alert{position:fixed;top: 111px;z-index: 9;}
+::-webkit-scrollbar{width:17px;background:pink;}
+::-webkit-scrollbar-thumb{background:#000;-webkit-box-shadow:inset 0 0 6px #000}
+::-webkit-scrollbar-thumb:window-inactive{background:#000}
+#upTop{
+	opacity: 0;
+	color:#fff;
+	padding: 16px 10px 4px;
+}
+.tre-blog{
+	margin-top:23px;
+}
+.bblogs{
+	margin: 0 33px;
+}
+.dear-abby{
+	margin-right:-33px;
+}
+.pull-right{
+	float:right !important;
+}
+.pop-top{
+	margin-top: 33px;
+}
+.muted {
+	color: #999 !important;
+}
 .container .span12 ul li.span4 .span3{width:278px; margin-top:10px;}
 .container .span12 ul li.span4 .span3 p{line-height:26px;}
 .container .span12 ul li.span4 .span3 p a{ float:none; display:block;color:#F788BE;}
@@ -125,12 +156,12 @@ ul, li{ list-style:none;}
 .container .span12 .span4 .span3 a{margin-right:10px;  margin-bottom:0;}
 #blog h2{padding-bottom:12px;}
 #blog h1{margin-top:20px;}
-#blog .span2{margin-left: 13px !important; width:123px;margin-bottom: 15px;}
+#blog .span2{width:234px;margin-bottom: 15px;}
 .like li a{background:#f9f9f8; padding:10px;}
 .like li a img{ border:1px solid #e4e4de; border-radius:3px; display:block;}
 #blog .span2 a{background:none; padding:0;}
 #blog .span2 a img{ border:none; border-radius:0;}
-.like span{font-size:16.9px; line-height:1.5; margin-top:10px; display:block; clear:both; padding-top: 13px;}
+.like span{font-size:16.9px; line-height:1.5; margin-top:10px; display:block; clear:both;}
 .comment{ overflow:hidden; margin-left:-7px; padding:5px 0 10px}
 .comment li { float:left; background:url(../img/divider_line.png) right center no-repeat;}
 .comment li a{ font-size:16.9px; line-height:1.3; color:#f788be; background: none; padding:0 7px; text-decoration:underline;}
@@ -196,10 +227,15 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear;
 	.social .thumbnails li a{ display:block; width:100%;}
 	.social  .span11{width:100%;}
 	.like{margin-left:-9px;}
-	
-	
 }
-
+@media only screen and (max-width:1010px) {
+	#convo .span4 {
+		float: none;
+		width: 93%;
+		clear: both;
+		padding-bottom: 20px;
+	}
+}
 @media only screen and (max-width:767px) {
 	h1{font-size:40px;}
 	h2{font-size:20px;}
@@ -211,7 +247,7 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear;
 	#convo .thumbnails > li + li + li + li .grid p {
     float: right;
     width: 309px;
-}
+	}
 	.btn.btn-navbar{ min-width: 0;
     padding:10px 10px 10px 13px;
     width: 20px;}

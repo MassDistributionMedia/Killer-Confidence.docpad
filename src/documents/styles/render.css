@@ -90,14 +90,14 @@ span.rnd {
 
 /* pages */
 #home {
-	background:url(../img/home_bg1.jpg) 50% 40px no-repeat fixed;
+	background:rgb(240,110,170) url(../img/home_bg1.jpg) 50% 40px no-repeat fixed;
 	color: white;
 	min-height:641px;
 	padding:10px 0 0 0;
 	position:relative;
 }
 #blog {
-	background: url(../img/blog_bg.jpg) 50% 0 repeat fixed;
+	background:rgb(153,32,77) url(../img/blog_bg.jpg) 50% 0 repeat fixed;
 	color: white;
 	min-height:1000px;
 	margin: 0 auto;
@@ -120,7 +120,7 @@ span.rnd {
 	padding:0px 0 0 0;
 }
 #social {
-	background: #f06eaa;
+	background:rgb(240,110,170);
 	height: 800px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
