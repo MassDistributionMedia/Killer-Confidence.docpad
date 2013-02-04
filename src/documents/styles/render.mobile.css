@@ -90,10 +90,10 @@ span.rnd {
 
 
 /* pages */
-#home { background:#8c31b7; background:url(../assets/firstBG.jpg) 50% -75px no-repeat fixed;}
-#second { background:#0099CC; background: url(../assets/secondBG.jpg) 50% 0 no-repeat fixed;}
+#home { background:#8c31b7; background:url(../img/firstBG.jpg) 50% -75px no-repeat fixed;}
+#second { background:#0099CC; background: url(../img/secondBG.jpg) 50% 0 no-repeat fixed;}
 #third { background:#FFCC00; }
-#fourth { background:#6C9; background: url(../assets/thirdBG.jpg) 50% 0 no-repeat fixed;}
+#fourth { background:#6C9; background: url(../img/thirdBG.jpg) 50% 0 no-repeat fixed;}
 #fifth { background:#8c31b7;}
 
 #home, #second, #third, #fourth, #fifth {min-height:500px;}
