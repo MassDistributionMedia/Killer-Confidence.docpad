@@ -43,7 +43,7 @@
 .navbar .nav > li > a {
 	color:#fff;
 }
-.blog, .convo, .social, .footer {
+#blog, #convo, .social, .footer {
 	position:relative;
 	z-index:9;
 }
@@ -115,43 +115,44 @@ margin-left:0;
 .navbar .nav > li > a {
 	font-family: 'open_sans_lightregular', sans-serif;
 }
+.alert{position:fixed;top: 111px;z-index: 9;}
 .btn.btn-navbar{ display:none;}
 .container .span12 ul li.span4 .span3{width:278px; margin-top:10px;}
 .container .span12 ul li.span4 .span3 p{line-height:26px;}
 .container .span12 ul li.span4 .span3 p a{ float:none; display:block;color:#F788BE;}
-.home .span9{margin-top:150px;}
+#home .span9{margin-top:150px;}
 ul, li{ list-style:none;}
 .container .span12 .span4 .span3 a{margin-right:10px;  margin-bottom:0;}
-.blog h2{padding-bottom:12px;}
-.blog h1{margin-top:20px;}
-.blog .span2{margin-left: 13px !important; width:123px;margin-bottom: 15px;}
+#blog h2{padding-bottom:12px;}
+#blog h1{margin-top:20px;}
+#blog .span2{margin-left: 13px !important; width:123px;margin-bottom: 15px;}
 .like li a{background:#f9f9f8; padding:10px;}
 .like li a img{ border:1px solid #e4e4de; border-radius:3px; display:block;}
-.blog .span2 a{background:none; padding:0;}
-.blog .span2 a img{ border:none; border-radius:0;}
+#blog .span2 a{background:none; padding:0;}
+#blog .span2 a img{ border:none; border-radius:0;}
 .like span{font-size:16.9px; line-height:1.5; margin-top:10px; display:block; clear:both; padding-top: 13px;}
 .comment{ overflow:hidden; margin-left:-7px; padding:5px 0 10px}
 .comment li { float:left; background:url(../img/divider_line.png) right center no-repeat;}
 .comment li a{ font-size:16.9px; line-height:1.3; color:#f788be; background: none; padding:0 7px; text-decoration:underline;}
 /* Conversations section CSS */
-.convo *  { color:#000 !important;  letter-spacing: -1px;}
-.convo .thumbnails li figure{width:105px; float:left;}
-.convo .thumbnails li p, .convo .span4 p{font-size:23px; line-height:1.6;font-family: 'Open Sans', sans-serif; font-weight:400; font-style:italic;margin-top: -10px}
-.convo .span5{ width:449px; position:relative;margin-left:25px;}
-.convo .span5 span{ background:url(../img/comments.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-64px; right:-85px; line-height:0; text-indent:-99999px;}
-.convo .span9{  width:836px;}
-.convo .span9 h1{padding-bottom:40px;}
-.convo .span4 h1{ position:relative; color:#fff !important;padding-bottom: 16px;}
-.convo .span4{width:327px; float:right;}
+#convo *  { color:#000 !important;  letter-spacing: -1px;}
+#convo .thumbnails li figure{width:105px; float:left;}
+#convo .thumbnails li p, #convo .span4 p{font-size:23px; line-height:1.6;font-family: 'Open Sans', sans-serif; font-weight:400; font-style:italic;margin-top: -10px}
+#convo .span5{ width:449px; position:relative;margin-left:25px;}
+#convo .span5 span{ background:url(../img/comments.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-64px; right:-85px; line-height:0; text-indent:-99999px;}
+#convo .span9{  width:836px;}
+#convo .span9 h1{padding-bottom:40px;}
+#convo .span4 h1{ position:relative; color:#fff !important;padding-bottom: 16px;}
+#convo .span4{width:327px; float:right;}
 .grid{ width:95%; display:inline-block;margin-top:60px;}
-.convo .span9 .grid figure{ width:100px; float:right;}
-.convo .span9 .grid .span5{ float:right; text-align:right;margin-right:25px;}
-.convo .span9 .grid .span5 span{ background:url(../img/commnet.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-39px; left:-35px; line-height:0; text-indent:-99999px;}
+#convo .span9 .grid figure{ width:100px; float:right;}
+#convo .span9 .grid .span5{ float:right; text-align:right;margin-right:25px;}
+#convo .span9 .grid .span5 span{ background:url(../img/commnet.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-39px; left:-35px; line-height:0; text-indent:-99999px;}
 .wrapper{width:100%; display:inline-block;}
 .span12, .container{max-width:1198px;}
-.convo .span4 h1 span{ background:url(../img/comments.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-13px; right:-22px; line-height:0; text-indent:-99999px;}
-.convo .thumbnails > li{ padding-bottom: 35px;}
-.convo .thumbnails > li + li + li + li .grid p{float: right; width: 403px;}
+#convo .span4 h1 span{ background:url(../img/comments.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-13px; right:-22px; line-height:0; text-indent:-99999px;}
+#convo .thumbnails > li{ padding-bottom: 35px;}
+#convo .thumbnails > li + li + li + li .grid p{float: right; width: 403px;}
 /* Convo section CSS */
 h4{font-size:24px; color:#f49ac1; font-weight:100; line-height:3;}
 
@@ -166,8 +167,7 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear;
 .social-media li.facebook a{ background-position:-140px 0;}
 .social-media li.youtube a{ background-position:-275px 0;}
 .social-media li.pint a{ background-position:-409px 0;}
-.social .span6{margin-top:-17px;width:100%;}
-
+#social .span6{margin-top:-17px;width:100%;}
 
 
 /* footer */
@@ -177,21 +177,21 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear;
 
 @media only screen and (max-width:768px) {
 	.row{margin-left:0; width:100%;}
-	.home , .blog , .convo , .social{width:96%; padding:0 2%; overflow:hidden;}
+	#home , #blog , #convo , #social{width:96%; padding:0 2%; overflow:hidden;}
 	.thumbnails{margin-left:0;}
 	.span12, .container{width:100%; padding:0;}
-	.convo .span9{width:100%;}
+	#convo .span9{width:100%;}
 	.pic{ left:inherit; right:0;}
 	.pic figure{ width:90%;}
-	.home .span9{margin-top:30px;}
-	.home { height:auto; min-height:0;}
+	#home .span9{margin-top:30px;}
+	#home { height:auto; min-height:0;}
 	.span4{width: 353px}
 	.i-span{width:100%;}
 	.thumbnails > li{margin-left:0;}
 	.thumbnails > li.span4 {width: 353px; margin-left:9px;}
-	.blog .span2{margin-left:7px !important;}
-	.blog .span2{width:112px;}
-	.convo .span4{float:none; width:93%; clear:both;padding-bottom:20px;}
+	#blog .span2{margin-left:7px !important;}
+	#blog .span2{width:112px;}
+	#convo .span4{float:none; width:93%; clear:both;padding-bottom:20px;}
 	.social .thumbnails li {width:30%; margin-right:24px;}
 	.social .thumbnails li a{ display:block; width:100%;}
 	.social  .span11{width:100%;}
@@ -205,10 +205,10 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear;
 	h2{font-size:20px;}
 	h3,h4{ font-family:18px;}
 	p{ font-size:14px;}
-	.convo .thumbnails li p, .convo .span4 p{font-size:14px;}
-	.convo .span5{width: 286px;}
-	.convo .span9 .grid .span5{float:left;margin-right: 10px;}
-	.convo .thumbnails > li + li + li + li .grid p {
+	#convo .thumbnails li p, #convo .span4 p{font-size:14px;}
+	#convo .span5{width: 286px;}
+	#convo .span9 .grid .span5{float:left;margin-right: 10px;}
+	#convo .thumbnails > li + li + li + li .grid p {
     float: right;
     width: 309px;
 }

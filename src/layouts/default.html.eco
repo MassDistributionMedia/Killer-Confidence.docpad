@@ -47,11 +47,11 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>                         
                 <div class="nav-collapse">
                     <ul id="navi" class="nav">
-                        <li><a href=".home">Home</a></li>
-                        <li><a href=".home">About</a></li>
-                        <li><a href=".blog">Blogs</a></li>
-                        <li><a href=".convo">Conversations</a></li>
-                        <li><a href=".social">Follow</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#home">About</a></li>
+                        <li><a href="#blog">Blogs</a></li>
+                        <li><a href="#convo">Conversations</a></li>
+                        <li><a href="#social">Follow</a></li>
                     </ul>
                     </div>
                 </div>

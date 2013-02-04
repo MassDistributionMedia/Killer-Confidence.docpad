@@ -89,14 +89,14 @@ span.rnd {
 
 
 /* pages */
-.home {
+#home {
 	background:url(../img/home_bg1.jpg) 50% 40px no-repeat fixed;
 	color: white;
 	min-height:641px;
 	padding:10px 0 0 0;
 	position:relative;
 }
-.blog {
+#blog {
 	background: url(../img/blog_bg.jpg) 50% 0 repeat fixed;
 	color: white;
 	min-height:1000px;
@@ -105,21 +105,21 @@ span.rnd {
 	padding: 0;
 }
 
-.convo {
+#convo {
 	background:#ca7aed url(../img/third_bg.jpg) 50% 0 no-repeat fixed;
 	margin: 0 auto;
 	padding: 40px 0 56px 0;
 }
-.convo p, .convo h1, .convo h2, .convo h3, .convo h4, .convo h5, .convo h6 {color:#FFFFFF;}
-.convo h2 {font-weight:300;}
+#convo p, #convo h1, #convo h2, #convo h3, #convo h4, #convo h5, #convo h6 {color:#FFFFFF;}
+#convo h2 {font-weight:300;}
 
-.products {
+#products {
 	background: url(../img/blog_bg.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	padding:0px 0 0 0;
 }
-.social {
+#social {
 	background: #f06eaa;
 	height: 800px;
 	margin: 0 auto;
