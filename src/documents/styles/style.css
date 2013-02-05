@@ -9,6 +9,9 @@
 	position:absolute;
 	bottom:-5px;
 }
+.pic figure{
+	background: url(../img/sprites.png) no-repeat -731px -17px;width: 477px;height: 610px;
+}
 .btn {
 	color:#fff;
 	border:none;
@@ -121,7 +124,7 @@ clear: none;
 	padding: 16px 10px 4px;
 }
 .btn.btn-navbar{ display:none;}
-.alert{position:fixed;top: 111px;z-index: 9;}
+.alert{position:fixed;top: 111px;z-index:10;}
 ::-webkit-scrollbar{width:17px;background:pink;}
 ::-webkit-scrollbar-thumb{background:#000;-webkit-box-shadow:inset 0 0 6px #000}
 ::-webkit-scrollbar-thumb:window-inactive{background:#000}
@@ -163,14 +166,14 @@ ul, li{ list-style:none;}
 #blog .span2 a img{ border:none; border-radius:0;}
 .like span{font-size:16.9px; line-height:1.5; margin-top:10px; display:block; clear:both;}
 .comment{ overflow:hidden; margin-left:-7px; padding:5px 0 10px}
-.comment li { float:left; background:url(../img/divider_line.png) right center no-repeat;}
+.comment li { float:left; background: url(../img/sprites.png) no-repeat -644px -742px; height:19px;width:3px;}
 .comment li a{ font-size:16.9px; line-height:1.3; color:#f788be; background: none; padding:0 7px; text-decoration:underline;}
 /* Conversations section CSS */
 #convo *  { color:#000 !important;  letter-spacing: -1px;}
 #convo .thumbnails li figure{width:105px; float:left;}
 #convo .thumbnails li p, #convo .span4 p{font-size:23px; line-height:1.6;font-family: 'Open Sans', sans-serif; font-weight:400; font-style:italic;margin-top: -10px}
 #convo .span5{ width:449px; position:relative;margin-left:25px;}
-#convo .span5 span{ background:url(../img/comments.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-64px; right:-85px; line-height:0; text-indent:-99999px;}
+#convo .span5 span{ background: url(../img/sprites.png) no-repeat -588px -402px;width: 108px;height: 82px; position:absolute; top:-64px; right:-85px; line-height:0; text-indent:-99999px;}
 #convo .span9{  width:836px;}
 #convo .span9 h1{padding-bottom:40px;}
 #convo .span4 h1{ position:relative; color:#fff !important;padding-bottom: 16px;}
@@ -178,26 +181,29 @@ ul, li{ list-style:none;}
 .grid{ width:95%; display:inline-block;margin-top:60px;}
 #convo .span9 .grid figure{ width:100px; float:right;}
 #convo .span9 .grid .span5{ float:right; text-align:right;margin-right:25px;}
-#convo .span9 .grid .span5 span{ background:url(../img/commnet.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-39px; left:-35px; line-height:0; text-indent:-99999px;}
+#convo .span9 .grid .span5 span{ background: url(../img/sprites.png) no-repeat -578px -285px;width: 108px;height: 82px; position:absolute; top:-39px; left:-35px; line-height:0; text-indent:-99999px;}
 .wrapper{width:100%; display:inline-block;}
 .span12, .container{max-width:1198px;}
-#convo .span4 h1 span{ background:url(../img/comments.png) left top no-repeat; width:108px; height:82px; position:absolute; top:-13px; right:-22px; line-height:0; text-indent:-99999px;}
+#convo .span4 h1 span{ background: url(../img/sprites.png) no-repeat -588px -402px;width: 108px;height: 82px; position:absolute; top:-13px; right:-22px; line-height:0; text-indent:-99999px;}
 #convo .thumbnails > li{ padding-bottom: 35px;}
 #convo .thumbnails > li + li + li + li .grid p{float: right; width: 403px;}
+.blogger{background: url(../img/sprites.png) no-repeat -594px -614px;width: 100px;height: 100px;}
+.blogger_inverse{background: url(../img/sprites.png) no-repeat -592px -502px;width: 100px;height: 100px;}
 /* Convo section CSS */
 h4{font-size:24px; color:#f49ac1; font-weight:100; line-height:3;}
 
 /* Social section CSS */
 .social-media{ overflow:hidden; margin:29px 0 0 0;}
 .social-media li { float:left;}
-.social-media li a{width:113px; height:113px; display:block; background:url(../img/social-icon.png) left top no-repeat; line-height:0; text-indent:-99999px;margin-right:28px;
-transition:all 0.3s linear; -moz-transition:all 0.3s linear; 
-}
-.social-media li a:hover{ background:url(../img/social-icon_H.png) left top no-repeat;
-}
-.social-media li.facebook a{ background-position:-140px 0;}
-.social-media li.youtube a{ background-position:-275px 0;}
-.social-media li.pint a{ background-position:-409px 0;}
+.social-media li a{width:115px; height:115px; display:block;background: url(../img/sprites.png) no-repeat -7px -133px; line-height:0; text-indent:-99999px;margin-right:28px;
+transition:all 0.3s linear; -moz-transition:all 0.3s linear; }
+.social-media li a:hover{background: url(../img/sprites.png) no-repeat -7px -17px;}
+.social-media li.facebook a{ background-position:-146px -133px;}
+.social-media li.youtube a{ background-position:-280px -133px;}
+.social-media li.pint a{ background-position:-414px -133px;}
+.social-media li.facebook a:hover{ background-position:-146px -17px;}
+.social-media li.youtube a:hover{ background-position:-280px -17px;}
+.social-media li.pint a:hover{ background-position:-414px -17px;}
 #social .span6{margin-top:-17px;width:100%;}
 
 

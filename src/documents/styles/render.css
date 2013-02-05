@@ -23,7 +23,7 @@ h1 {
 	line-height:60px;
 }
 p a {
-	color:#FFFFFF;
+	color:#FFF;
 	text-decoration:underline;
 }
 p a:hover {
@@ -37,13 +37,13 @@ p a.btn {
 
 /* colors */
 
-h1 {color:#FFFFFF; text-shadow: 0 1px rgba(0,0,0,.15);}
-h2 {color:#FFFFFF; font-family: 'Open Sans', sans-serif; font-weight:700; text-shadow: 0 1px rgba(0,0,0,.15); font-size:24px; padding-bottom:8px;}
-h3 {color:#FFFFFF;}
-h4 {color:#FFFFFF;}
-h5 {color:#FFFFFF;}
-h6 {color:#FFFFFF;}
-p {color:#FFFFFF;}
+h1 {color:#FFF; text-shadow: 0 1px rgba(0,0,0,.15);}
+h2 {color:#FFF; font-family: 'Open Sans', sans-serif; font-weight:700; text-shadow: 0 1px rgba(0,0,0,.15); font-size:24px; padding-bottom:8px;}
+h3 {color:#FFF;}
+h4 {color:#FFF;}
+h5 {color:#FFF;}
+h6 {color:#FFF;}
+p {color:#FFF;}
 
 .navbar-fixed-top {
 position:fixed;
@@ -52,11 +52,11 @@ margin-bottom: 18px;
 
 /* footer */
 .footer {
-	background:#333333;
+	background:#333;
 }
 .footer p {font-size:11pt;}
 .footer p, .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, footer h6 {
-	color:#FFFFFF;
+	color:#FFF;
 }
 
 /* elements */
@@ -110,7 +110,7 @@ span.rnd {
 	margin: 0 auto;
 	padding: 40px 0 56px 0;
 }
-#convo p, #convo h1, #convo h2, #convo h3, #convo h4, #convo h5, #convo h6 {color:#FFFFFF;}
+#convo p, #convo h1, #convo h2, #convo h3, #convo h4, #convo h5, #convo h6 {color:#FFF;}
 #convo h2 {font-weight:300;}
 
 #products {
@@ -138,7 +138,7 @@ note : this will break bootstrap fluid and responsive.css
 */
 
 .bg {
-	background: url(../img/objects.png) top left no-repeat fixed;
+	background: url(../img/sprites.png) no-repeat -18px -276px fixed;
 	height: 1200px;
 	margin: 0 auto;
 	padding: 0px;
@@ -150,7 +150,7 @@ note : this will break bootstrap fluid and responsive.css
 	overflow:hidden;
 }
 .bg2 {
-	background: url(../img/objects2.png) top left no-repeat fixed;
+	background: url(../img/sprites.png) no-repeat -533px -20px fixed;
 	height: 1400px;
 	margin: 0 auto;
 	padding: 0;
