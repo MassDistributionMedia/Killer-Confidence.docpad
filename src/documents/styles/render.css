@@ -90,14 +90,14 @@ span.rnd {
 
 /* pages */
 #home {
-	background:rgb(240,110,170) url(../img/home_bg1.jpg) 50% 40px no-repeat fixed;
+	background:rgb(240,110,170) url(../img/home_bg1.jpg) 50% 40px repeat-x fixed;
 	color: white;
 	min-height:641px;
 	padding:10px 0 0 0;
 	position:relative;
 }
 #blog {
-	background:rgb(153,32,77) url(../img/blog_bg.jpg) 50% 0 repeat fixed;
+	background:rgb(153,32,77) url(../img/blog_bg2.jpg) 50% 0 repeat-x fixed;
 	color: white;
 	min-height:1000px;
 	margin: 0 auto;
@@ -106,7 +106,7 @@ span.rnd {
 }
 
 #convo {
-	background:#ca7aed url(../img/third_bg.jpg) 50% 0 no-repeat fixed;
+	background:#ca7aed url(../img/third_bg.jpg) 50% 0 repeat-x fixed;
 	margin: 0 auto;
 	padding: 40px 0 56px 0;
 }

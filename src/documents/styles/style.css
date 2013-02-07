@@ -234,7 +234,7 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear; }
 	.social  .span11{width:100%;}
 	.like{margin-left:-9px;}
 }
-@media only screen and (max-width:1010px) {
+@media only screen and (max-width:1199px) {
 	#convo .span4 {
 		float: none;
 		width: 93%;
