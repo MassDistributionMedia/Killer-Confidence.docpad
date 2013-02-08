@@ -1,6 +1,7 @@
 --- yaml
 layout: 'default'
 title: ''
+script: home.js
 ---
 
 <div id="home">
@@ -211,5 +212,4 @@ title: ''
   </div> <!--.container-->
 </div>
 <!--#fourth-->
-
- 
+<%- %>

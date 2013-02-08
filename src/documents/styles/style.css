@@ -12,6 +12,10 @@
 .pic figure{
 	background: url(../img/sprites.png) no-repeat -731px -17px;width: 477px;height: 610px;
 }
+article{
+	background: rgb(153,32,77) url(../img/blog_bg2.jpg) 50% 0 repeat-x fixed;
+	color:#fff;
+}
 .btn {
 	color:#fff;
 	border:none;
