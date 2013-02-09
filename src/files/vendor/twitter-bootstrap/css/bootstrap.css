@@ -787,6 +787,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
+input[type="author"],
 .uneditable-input {
   display: inline-block;
   height: 18px;
@@ -821,6 +822,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
+input[type="author"],
 .uneditable-input {
   background-color: #ffffff;
   border: 1px solid #cccccc;

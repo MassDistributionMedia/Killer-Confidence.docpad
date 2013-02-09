@@ -12,9 +12,17 @@
 .pic figure{
 	background: url(../img/sprites.png) no-repeat -731px -17px;width: 477px;height: 610px;
 }
-article{
+.page{
 	background: rgb(153,32,77) url(../img/blog_bg2.jpg) 50% 0 repeat-x fixed;
 	color:#fff;
+	padding: 77px 33px;
+	min-height: 640px;
+}
+.comments{
+	padding:77px 3px;
+}
+.comment-body{
+	padding: 33px 13px;
 }
 .btn {
 	color:#fff;

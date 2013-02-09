@@ -4,28 +4,31 @@ layout: default
 pageOrder: 2
 ---
 
-<article>
-<h5>ABOUT KILLER CONFIDENCE</h5>
-Killer Confidence is more than a site - it’s a movement - created to celebrate, empower, and embrace women as they heal and learn to love themselves just as they are.  It’s time to put an end to body shame and to squash the notion that “thin is in” and in order to do so, we must build ‘Killer Confidence’.  By attaining ‘Killer Confidence’ we naturally create a new standard for women and girls so that we no longer compare and harm ourselves in order to achieve unattainable image ideals promoted by the media.  This website serves as a safe place to encourage self-love, self-esteem and positive body image in all women since eating disorders, negative body image and low self-esteem are no longer just teen problems.
-In conjunction with my show, ‘The Kari Adams Show’, Killer-Confidence.com was created in an effort to support folks going through adversity and to teach people how they can gain “Killer Confidence” in spite of, or even perhaps because of, traumatic events.  Having been through hell and back from difficulties, struggles and mental illness in my own life, I know that with a little bit of work and a lot of self-love, Killer Confidence is absolutely possible!  And the amazing thing is, once it’s yours no one can ever take it from you! Promise.
+<section class="page">
+	<article>
+		<h5>ABOUT KILLER CONFIDENCE</h5>
+		Killer Confidence is more than a site - it’s a movement - created to celebrate, empower, and embrace women as they heal and learn to love themselves just as they are.  It’s time to put an end to body shame and to squash the notion that “thin is in” and in order to do so, we must build ‘Killer Confidence’.  By attaining ‘Killer Confidence’ we naturally create a new standard for women and girls so that we no longer compare and harm ourselves in order to achieve unattainable image ideals promoted by the media.  This website serves as a safe place to encourage self-love, self-esteem and positive body image in all women since eating disorders, negative body image and low self-esteem are no longer just teen problems.
+		In conjunction with my show, ‘The Kari Adams Show’, Killer-Confidence.com was created in an effort to support folks going through adversity and to teach people how they can gain “Killer Confidence” in spite of, or even perhaps because of, traumatic events.  Having been through hell and back from difficulties, struggles and mental illness in my own life, I know that with a little bit of work and a lot of self-love, Killer Confidence is absolutely possible!  And the amazing thing is, once it’s yours no one can ever take it from you! Promise.
 
-<br/><br/><br/>
+		<br/><br/><br/>
 
-<h5>ABOUT KARI ADAMS</h5>
-Kari Adams is an entrepreneur, a TV host, a motivational speaker, and a mother of two.  She has appeared on the NBC Nightly News with Brian Williams, and the Today Show, where she spoke about her experience as a middle aged woman facing an eating disorder.  In addition to speaking to women around the country about her story, she also hosts ‘The Kari Adams Show’ on Princeton’s TV30, where she highlights stories of individuals overcoming adversity in their lives.  Kari’s personal goal is to help others find strength and self worth, or, as she calls it: ‘Killer Confidence.’
+		<h5>ABOUT KARI ADAMS</h5>
+		Kari Adams is an entrepreneur, a TV host, a motivational speaker, and a mother of two.  She has appeared on the NBC Nightly News with Brian Williams, and the Today Show, where she spoke about her experience as a middle aged woman facing an eating disorder.  In addition to speaking to women around the country about her story, she also hosts ‘The Kari Adams Show’ on Princeton’s TV30, where she highlights stories of individuals overcoming adversity in their lives.  Kari’s personal goal is to help others find strength and self worth, or, as she calls it: ‘Killer Confidence.’
 
-<br/><br/><br/>
+		<br/><br/><br/>
 
-<h6><em>A NOTE FROM KARI</em></h6>
-My relationship with food and my focus on obtaining the ‘ideal body’ began in my early childhood, and followed me closely for decades.  From offhanded comments about my weight from family members, to my desire to be the skinny girl at the top of the high-school cheerleading team’s pyramid, to the stress of being a wife and mother, my obsession with food and dieting consumed my thinking.  My eating disorder was an attempt at gaining ‘control’ where I felt I had none, that eventually lead me down a very dark road.
+		<h6><em>A NOTE FROM KARI</em></h6>
+		My relationship with food and my focus on obtaining the ‘ideal body’ began in my early childhood, and followed me closely for decades.  From offhanded comments about my weight from family members, to my desire to be the skinny girl at the top of the high-school cheerleading team’s pyramid, to the stress of being a wife and mother, my obsession with food and dieting consumed my thinking.  My eating disorder was an attempt at gaining ‘control’ where I felt I had none, that eventually lead me down a very dark road.
 
-<br/><br/>
+		<br/><br/>
 
-When I sought treatment in adulthood, I was able to reflect on the dangerous situations it had put me in.  Eating disorders and body shame are real issues for so many women and not just girls in their teens. (The numbers of middle aged women, who also happened to be mothers like myself, being admitted into treatment centers for eating disorders is increasing - according to a recent a study, by as much as 42%.) 
+		When I sought treatment in adulthood, I was able to reflect on the dangerous situations it had put me in.  Eating disorders and body shame are real issues for so many women and not just girls in their teens. (The numbers of middle aged women, who also happened to be mothers like myself, being admitted into treatment centers for eating disorders is increasing - according to a recent a study, by as much as 42%.) 
 
-<br/><br/>
+		<br/><br/>
 
-I’m here to keep the conversation going about women’s issues like these, because I am impassioned in helping others who are dealing with adversity in their own lives and want to demonstrate from my own story, that recovery and healing is possible!  I know one thing for sure – life is too precious and too damn short to not fall madly and completely in love with yourself! 
-…So remember, don’t kill yourself to be something you aren’t.   Go out there and kill it as you are!
-</article>
+		I’m here to keep the conversation going about women’s issues like these, because I am impassioned in helping others who are dealing with adversity in their own lives and want to demonstrate from my own story, that recovery and healing is possible!  I know one thing for sure – life is too precious and too damn short to not fall madly and completely in love with yourself! 
+		…So remember, don’t kill yourself to be something you aren’t.   Go out there and kill it as you are!
+	</article>
+</section>
+
 <%- %>
