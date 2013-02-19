@@ -1,8 +1,6 @@
 ---
 title: Test
-layout: page
+layout: post
 ---
 
-TEST!
-
-<% %>
+<%- @getGoogleDocsBlock() %>
