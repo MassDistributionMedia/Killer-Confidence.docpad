@@ -43,7 +43,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
        
             <div class="container"> 
             <div class="row">
-             <a href="#" class="brand"><img src="/img/logo.png" width="229" height="32" alt="logo"></a>
+             <a href="/" class="brand"><span class="killer_logo">Killer</span><span class="conf_logo">CONFIDENCE</span></a>
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>                         
                 <div class="nav-collapse">
                     <ul id="navi" class="nav">

@@ -3,6 +3,30 @@
 	max-width:1200px;
 	margin:0 auto;
 }
+::selection {
+	background:pink; /* Safari */
+	}
+::-moz-selection {
+	background:pink; /* Firefox */
+}
+@font-face
+{
+	font-family: Ambassador_Script;
+	src: url('/font/Ambassador_Script.ttf');
+}
+.killer_logo{
+	font-family: Ambassador_Script;
+	font-size: 43px;
+}
+@font-face
+{
+	font-family: LetterGothicStd;
+	src: url('/font/LetterGothicStd.otf');
+}
+.conf_logo{
+	font-family: LetterGothicStd;
+	font-size: 33px;
+}
 .pic {
 	margin-left:0;
 	left:50%;
@@ -127,6 +151,7 @@ clear: none;
 }
 .navbar .brand {
 	padding: 5px 20px 0;
+	color:rgb(242,242,242);
 }
 .navbar .nav > li > a { 
 	font-family: 'open_sans_lightregular', sans-serif;
