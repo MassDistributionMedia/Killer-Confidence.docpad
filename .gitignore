@@ -1,5 +1,4 @@
 node_modules/
 out/
 Procfile
-plugins/
 src/Documents/testhtml.eco
