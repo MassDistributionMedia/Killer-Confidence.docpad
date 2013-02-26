@@ -42,7 +42,7 @@
     "docpad-plugin-stylus": "2.x",
     "docpad-plugin-text": "2.x",
     "docpad-plugin-nativecomments": "~2.0.0",
-    "docpad-plugin-gdocs": "2.0.x",
+    "docpad-plugin-gdocs": "2.0.3",
     "cheerio": "0.10"
   },
   "devDependencies": {
@@ -60,8 +60,7 @@
     "docpad-plugin-partials",
     "docpad-plugin-stylus",
     "docpad-plugin-text",
-    "docpad-plugin-nativecomments",
-    "docpad-plugin-gdocs"
+    "docpad-plugin-nativecomments"
   ],
   "main": "node_modules/docpad/bin/docpad-server",
   "subdomain": "killer-confidence-mdm",
