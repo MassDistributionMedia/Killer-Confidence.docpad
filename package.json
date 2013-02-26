@@ -42,7 +42,7 @@
     "docpad-plugin-stylus": "2.x",
     "docpad-plugin-text": "2.x",
     "docpad-plugin-nativecomments": "~2.0.0",
-    "docpad-plugin-gdocs": "2.0.4",
+    "docpad-plugin-gdocs": "2.0.5",
     "cheerio": "0.10"
   },
   "devDependencies": {
