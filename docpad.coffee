@@ -3,6 +3,13 @@
 docpadConfig = {
 
 	# =================================
+    # Plugin Configuration
+
+    # Skip Unsupported Plugins
+    # Set to `false` to load all plugins whether or not they are compatible with our DocPad version or not
+    skipUnsupportedPlugins: false
+
+	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
 	# To access one of these within our templates, refer to the FAQ: https://github.com/bevry/docpad/wiki/FAQ
@@ -78,6 +85,7 @@ docpadConfig = {
 		# This one, will fetch in all documents that have the tag "post" specified in their meta data
 		posts: (database) ->
 			database.findAllLive({tags: $has: ['post']}, [date:-1])
+
 
 
 	# =================================

@@ -1,0 +1,15 @@
+{
+    "name": "docpad-plugin-squareLogo",
+    "version": "2.0.0",
+    "description": "Square KC Logo",
+    "private": "true",
+    "keywords": [
+        "docpad",
+        "docpad-plugin"
+    ],
+    "engines" : {
+        "node": ">=0.6.0",
+        "docpad": "6.x"
+    },
+    "main": "./squareLogoPlugin.plugin.coffee"
+}

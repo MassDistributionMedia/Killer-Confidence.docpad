@@ -1,7 +1,7 @@
 --- yaml
 layout: 'default'
 title: ''
-script: home.js
+scripts: home.js
 ---
 
 <div id="home">
@@ -212,4 +212,18 @@ script: home.js
   </div> <!--.container-->
 </div>
 <!--#fourth-->
+
+<!--#fifth footer-->
+<div id="social">
+ <div class="container">
+    <div class="story">
+      <div class="row">
+        <div class="span6">
+          
+        </div> <!-- /span 6--> 
+    </div> <!-- .row --> 
+  </div> <!--.story-->
+  </div> <!--.container-->
+</div>
+<!--#fifth footer-->
 <%- %>
