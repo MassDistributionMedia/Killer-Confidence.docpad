@@ -3,4 +3,4 @@ title: Test
 layout: post
 ---
 
-<%- @getGoogleDocsBlock() %>
+<%- @getCommentsBlock() %>

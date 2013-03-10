@@ -1,6 +1,6 @@
 {
   "name": "kc-foundation.docpad",
-  "version": "0.1.0-43",
+  "version": "0.1.0-45",
   "private": true,
   "description": "Killer-Confidence.com website.",
   "homepage": "http://killer-confidence.com/",
@@ -26,11 +26,11 @@
     "url": "https://github.com/MassDistributionMedia/Killer-Confidence.com.git"
   },
   "engines": {
-    "node": "latest",
+    "node": "0.8.x",
     "docpad": "6.x"
   },
   "dependencies": {
-    "docpad": "https://github.com/mikeumus/docpad/tarball/skipUnsupportedPlugins",
+    "docpad": "6.25",
     "docpad-plugin-cleanurls": "2.x",
     "docpad-plugin-coffeescript": "2.x",
     "docpad-plugin-cachr": "2.x",
@@ -42,7 +42,8 @@
     "docpad-plugin-stylus": "2.x",
     "docpad-plugin-text": "2.x",
     "docpad-plugin-nativecomments": "~2.0.0",
-    "docpad-plugin-gdocs": "~2.0.5"
+    "docpad-plugin-gdocs": "~2.0.5",
+    "docpad-plugin-facebookcomments": "2.x"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "2.x"

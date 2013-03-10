@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <title><%= @getPreparedTitle() %></title>
 
 <meta name="description" content="<%= @getPreparedDescription() %>" />
@@ -75,9 +76,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 
 <!-- Scripts -->
 <%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/jquery.localscroll-1.2.7-min.js","/vendor/jquery.parallax-1.1.js","/vendor/jquery.scrollTo-1.4.2-min.js","/vendor/twitter-bootstrap/js/bootstrap.min.js","/scripts/script.js","/vendor/pinit.js"]).toHTML() %>
-<% if @document.scripts: %>
-    <%  # for script in @scripts: %>
-        <%- @getBlock('scripts').add(["/scripts/"+@document.script]).toHTML() %>
-    <%  # end %> 
+<% if @document.scripts: %> 
+    <%- @getBlock('scripts').add(["/scripts/"+@document.scripts]).toHTML() %>
 </body>
 </html>

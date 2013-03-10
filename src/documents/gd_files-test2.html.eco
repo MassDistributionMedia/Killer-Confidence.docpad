@@ -1,0 +1,87 @@
+---
+title: Google Drive Publisher
+layout: post
+---
+
+    <script type="text/javascript">
+      var CLIENT_ID = '107832002021-bekimuc0k8hjtf6ff67bqiuj3ln518nu.apps.googleusercontent.com';
+      var API_KEY = 'AIzaSyCGhZLgwJFVlMgp0aPGglKDRHbasrw_eNE';
+      var SCOPES = 'https://www.googleapis.com/auth/drive';
+
+      function handleClientLoad() {
+          gapi.client.setApiKey('AIzaSyCB2dv6RW5KqaU97srIswdyzPXtDv0aSSc');
+          window.setTimeout(checkAuth,1);
+      }
+
+      function checkAuth() {
+          var options = {
+              client_id: CLIENT_ID,
+              scope: SCOPES,
+              immediate: true
+          };
+          gapi.auth.authorize(options, handleAuthResult);
+      }
+
+      function handleAuthResult(authResult) {
+          var authorizeButton = document.getElementById('authorize-button');
+
+          if (authResult && !authResult.error) {
+              authorizeButton.style.visibility = 'hidden';
+              makeApiCall();
+          } else {
+              authorizeButton.style.visibility = '';
+              authorizeButton.onclick = handleAuthClick;
+          }
+      }
+
+      function handleAuthClick(event) {
+          var options = {
+              client_id: CLIENT_ID,
+              scope: SCOPES,
+              immediate: false
+          };
+          gapi.auth.authorize(options, handleAuthResult);
+          return false;
+      }
+
+      function makeApiCall() {  
+          gapi.client.load('drive', 'v2', makeRequest);   
+      }
+
+      function makeRequest() {
+          var maxResults = 10;
+          var request = gapi.client.drive.files.list({'maxResults': maxResults });
+          request.execute(function(resp) {          
+              for (i=0; i<resp.items.length; i++) {
+                  var titulo = resp.items[i].title;
+                  var fechaUpd = resp.items[i].modifiedDate;
+                  var userUpd = resp.items[i].lastModifyingUserName;
+                  var userEmbed = resp.items[i].embedLink;
+                  var userAltLink = resp.items[i].alternateLink;
+                  var docLink= resp.items[i].selfLink;
+                  var docIcon = resp.items[i].iconLink;
+
+                //  var listElm = document.getElementById("fileListing");
+                //  var fileInfo = document.appendChild('li');
+                  var fileInfo = document.createElement('li');
+
+                  fileInfo.setAttribute('id', 'doc'+i);
+                  var seleItem = document.getElementById('doc'+i);
+                  seleItem.style.listStyleImage=docIcon;
+                  var fileLink = document.createElement('a');
+                  fileInfo.appendChild(fileLink);
+                  fileLink.setAttribute('href', userAltLink);
+                  fileLink.appendChild(document.createTextNode(titulo + ' - LAST MODIF: ' + fechaUpd + ' - BY: ' + userUpd ));                
+                  document.getElementById('content').appendChild(fileInfo);
+              }
+          });    
+      }
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+
+    <button id="authorize-button">Authorize</button>
+    <div id="content">Last Files:</div>
+    <ul id="fileListing">
+    </ul>
+
+<%- %>

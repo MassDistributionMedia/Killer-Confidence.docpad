@@ -7,7 +7,13 @@ docpadConfig = {
 
     # Skip Unsupported Plugins
     # Set to `false` to load all plugins whether or not they are compatible with our DocPad version or not
-    skipUnsupportedPlugins: false
+    skipUnsupportedPlugins: false,
+
+     # Enabled Plugins
+    enabledPlugins:  # example
+        # Disable the Pokemon Plugin
+        # pokemon: false
+        persona: false
 
 	# =================================
 	# Template Data

@@ -3,5 +3,6 @@ layout: default
 ---
 
 <section class="page">
+	<h3> <%- @document.title %> </h3>
 	<%- @content %>
 </scection>

@@ -1,0 +1,10 @@
+---
+title: FbComments
+layout: post
+---
+
+<%- @getFbSdkBlock() %>
+
+<%- @getFbCommentScriptBlock() %>
+
+<%- @getFbCommentsBlock() %>

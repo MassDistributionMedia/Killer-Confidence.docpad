@@ -2,8 +2,14 @@
   <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
     <script type="text/javascript">
-      var CLIENT_ID = '107832002021.apps.googleusercontent.com';
+      var CLIENT_ID = '107832002021-bekimuc0k8hjtf6ff67bqiuj3ln518nu.apps.googleusercontent.com';
       var SCOPES = 'https://www.googleapis.com/auth/drive';
+
+      function appendResults(text) {
+         var results = document.getElementById('results');
+         results.appendChild(document.createElement('P'));
+         results.appendChild(document.createTextNode(text));
+      }
 
       /**
        * Called when the client library is loaded to start the auth flow.
@@ -33,8 +39,9 @@
         filePicker.style.display = 'none';
         if (authResult && !authResult.error) {
           // Access token has been successfully retrieved, requests can be sent to the API.
-          filePicker.style.display = 'block';
-          filePicker.onchange = uploadFile;
+        //  filePicker.style.display = 'block';
+        //  filePicker.onchange = uploadFile;
+          retrieveAllFiles();
         } else {
           // No access token could be retrieved, show the button to start the authorization flow.
           authButton.style.display = 'block';
@@ -45,6 +52,38 @@
           };
         }
       }
+
+
+      /**
+       * Retrieve a list of File resources.
+       *
+       * @param {Function} callback Function to call when the request is complete. 
+       */
+      function retrieveAllFiles(callback) {
+          gapi.client.setApiKey('AIzaSyCB2dv6RW5KqaU97srIswdyzPXtDv0aSSc');
+          gapi.client.load('drive', 'v2', function() {
+          var retrievePageOfFiles = function(request, result) {
+            request.execute(function(resp) {
+              result = result.concat(resp.items);
+              var nextPageToken = resp.nextPageToken;
+              if (nextPageToken) {
+                request = gapi.client.drive.files.list({
+                  'pageToken': nextPageToken,
+                  'items': [{"title": title }]
+                });
+                retrievePageOfFiles(request, result);
+                appendResults(resp.items.title);
+              } else {
+                callback(result);
+              }
+            });
+          }
+          var initialRequest = gapi.client.drive.files.list(/*{"items": title}*/);
+          retrievePageOfFiles(initialRequest, []);
+          console.log(initialRequest);
+          });
+        }
+
 
       /**
        * Start the file upload.
@@ -113,6 +152,7 @@
     <!--Add a file picker for the user to start the upload process -->
     <input type="file" id="filePicker" style="display: none" />
     <input type="button" id="authorizeButton" style="display: none" value="Authorize" />
+    <div id="results"> </div>
   </body> 
 </html>
 
