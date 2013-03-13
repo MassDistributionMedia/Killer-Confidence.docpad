@@ -28,6 +28,12 @@ docpadConfig = {
 			# The production url of our website
 			url: "http://killer-confidence.com"
 
+			services:
+	            facebookLikeButton:
+	                applicationId: '221359268009894'
+	            twitterTweetButton: 'kariadamskc'
+	            googlePlusOneButton: '115708162848145266605'
+
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
 				''

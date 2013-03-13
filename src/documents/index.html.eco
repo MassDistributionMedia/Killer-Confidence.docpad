@@ -18,11 +18,11 @@ scripts: home.js
               </div>
               <div class="span9">
                   <h1>The Kari Adams Show</h1>
-                  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+                  <h3>Hosting the re-branded TV show, Killer Confidence.</h3>
                   <div class="row-fluid">
-                    <div class="span6">
-                      <h2>Editorial Calendar Schedule for blog</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                    <div class="span6" style="width:444px">
+                      <p>I’m here to keep the conversation going about women’s issues like these, because I am impassioned in helping others who are dealing with adversity in their own lives and want to demonstrate from my own story, that recovery and healing is possible!  I know one thing for sure – life is too precious and too damn short to not fall madly and completely in love with yourself! </p>
+                      <h6><i>"...don’t kill yourself to be something you aren’t.   Go out there and kill it as you are!"</i></h6>
                       <p><a class="btn" href="http://www.youtube.com/princetonelite">Tune In&rarr;</a></p>
                     </div>
                     <!--/span-->
@@ -213,17 +213,4 @@ scripts: home.js
 </div>
 <!--#fourth-->
 
-<!--#fifth footer-->
-<div id="social">
- <div class="container">
-    <div class="story">
-      <div class="row">
-        <div class="span6">
-          
-        </div> <!-- /span 6--> 
-    </div> <!-- .row --> 
-  </div> <!--.story-->
-  </div> <!--.container-->
-</div>
-<!--#fifth footer-->
 <%- %>

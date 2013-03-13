@@ -50,7 +50,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
                     <ul id="navi" class="nav">
                         <li><a href="/#home">Home</a></li>
                         <li><a href="/about.html">About</a></li>
-                        <li><a href="/#blog">Blogs</a></li>
+                        <li><a href="/blogs">Blogs</a></li>
                         <li><a href="/#convo">Conversations</a></li>
                         <li><a href="/#social">Follow</a></li>
                     </ul>
@@ -64,7 +64,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 </header>
 <%- @content %>
 <!-- footer --> 
-<footer class="footer"> 
+<footer class="footer">     
     <div class="container">
         <div class="row">
     <span>&copy;2013 Killer-Confidence.com</span>
@@ -78,5 +78,6 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 <%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/jquery.localscroll-1.2.7-min.js","/vendor/jquery.parallax-1.1.js","/vendor/jquery.scrollTo-1.4.2-min.js","/vendor/twitter-bootstrap/js/bootstrap.min.js","/scripts/script.js","/vendor/pinit.js"]).toHTML() %>
 <% if @document.scripts: %> 
     <%- @getBlock('scripts').add(["/scripts/"+@document.scripts]).toHTML() %>
+<% end %>
 </body>
 </html>

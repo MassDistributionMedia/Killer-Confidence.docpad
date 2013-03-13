@@ -5,4 +5,9 @@ layout: default
 <section class="page">
 	<h3> <%- @document.title %> </h3>
 	<%- @content %>
-</scection>
+	<br>
+	<%- @getFacebookComments() %>
+	<br>
+	<%- @getAddThisBlock('vert16','right:13px;top:115px;background:transparent', false) %>
+	<br>
+</section>
