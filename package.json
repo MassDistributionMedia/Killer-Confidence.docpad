@@ -1,6 +1,6 @@
 {
   "name": "kc-foundation.docpad",
-  "version": "0.1.0-58",
+  "version": "0.1.0-60",
   "private": true,
   "description": "Killer-Confidence.com website.",
   "homepage": "http://killer-confidence.com/",
@@ -60,8 +60,7 @@
     "docpad-plugin-marked",
     "docpad-plugin-partials",
     "docpad-plugin-stylus",
-    "docpad-plugin-text",
-    "docpad-plugin-nativecomments"
+    "docpad-plugin-text"
   ],
   "main": "node_modules/docpad/bin/docpad-server",
   "subdomain": "killer-confidence-mdm",
