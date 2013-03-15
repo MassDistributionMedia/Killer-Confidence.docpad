@@ -21,7 +21,8 @@ scripts: home.js
                     <div class="span6" style="width:444px">
                       <p>I’m here to keep the conversation going about women’s issues like these, because I am impassioned in helping others who are dealing with adversity in their own lives and want to demonstrate from my own story, that recovery and healing is possible!  I know one thing for sure – life is too precious and too damn short to not fall madly and completely in love with yourself! </p>
                       <h6><i>"...don’t kill yourself to be something you aren’t.   Go out there and kill it as you are!"</i></h6>
-                      <p><a class="btn" href="http://www.youtube.com/princetonelite">Tune In&rarr;</a></p>
+                      <p><a class="btn" href="/blogs">KC Blog --&raquo;</a>
+                        <a class="btn" href="http://www.youtube.com/princetonelite">Tune In&rarr;</a></p>
                     </div>
                     <!--/span-->
                   </div>
