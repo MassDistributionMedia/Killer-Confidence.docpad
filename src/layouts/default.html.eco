@@ -57,7 +57,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
                     </ul>
                     <%- @getTwitterFollowButton() %><%- @getFacebookFollowButton() %>
                 </div>
-                    <ul style="margin: 0 -77px 0 0;" class="pull-right">
+                    <ul style="margin:2px -77px 0 0;" class="pull-right">
                         <% for tweet in @feedr.feeds.twitter: %>
                             <% continue  if tweet.in_reply_to_user_id %>
                             <li datetime="<%=tweet.created_at%>" class="pull-left">
