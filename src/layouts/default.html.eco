@@ -16,17 +16,6 @@
 	<!-- Styles -->
 	<%- @getBlock('styles').add(["/styles/reset.css","/vendor/twitter-bootstrap/css/bootstrap.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css","/styles/render.css","/styles/style.css"]).toHTML() %>	
 
-<script type="text/javascript">
-<!--
-if (screen.width <= 699) {
-document.location = "http://augustinas.eu/dev/4/mobile.html";
-};
-if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-   location.replace("http://augustinas.eu/dev/4/mobile.html");
-};
-//-->
-</script>
-
 <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <link href="css/ie.css" rel="stylesheet" type="text/css" media="all">
