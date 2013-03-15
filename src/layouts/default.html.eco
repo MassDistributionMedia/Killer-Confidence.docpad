@@ -55,7 +55,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
                         <li><a href="/#social">Follow</a></li>
                         <li><a href="#" id="upTop">Top <strong>^</strong></a></li>
                     </ul>
-                    <%- @getTwitterFollowButton() %>
+                    <%- @getTwitterFollowButton() %><%- @getFacebookFollowButton() %>
                 </div>
                     <ul style="margin: 0 -77px 0 0;" class="pull-right">
                         <% for tweet in @feedr.feeds.twitter: %>

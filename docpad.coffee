@@ -37,6 +37,9 @@ docpadConfig = {
 			services:
 	            facebookLikeButton:
 	                applicationId: '221359268009894'
+	            facebookFollowButton:
+	            	applicationId: '221359268009894'
+	            	username: 'KariLynAdams'
 	            twitterTweetButton: 'kariadamskc'
 	            twitterFollowButton: 'kariadamskc'
 	            googlePlusOneButton: '115708162848145266605'
