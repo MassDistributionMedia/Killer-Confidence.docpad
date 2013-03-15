@@ -51,15 +51,26 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
                         <li><a href="/#home">Home</a></li>
                         <li><a href="/about.html">About</a></li>
                         <li><a href="/blogs">Blogs</a></li>
-                        <li><a href="/#convo">Conversations</a></li>
+                        <!-- <li><a href="/#convo">Conversations</a></li> -->
                         <li><a href="/#social">Follow</a></li>
+                        <li><a href="#" id="upTop">Top <strong>^</strong></a></li>
                     </ul>
-                    </div>
-                    <a href="#" id="upTop" class="pull-right">Top <strong>^</strong></a>
+                    <%- @getTwitterFollowButton() %>
                 </div>
-          </div>
-        </div>
+                    <ul style="margin: 0 -77px 0 0;" class="pull-right">
+                        <% for tweet in @feedr.feeds.twitter: %>
+                            <% continue  if tweet.in_reply_to_user_id %>
+                            <li datetime="<%=tweet.created_at%>" class="pull-left">
+                                <a class="twitter_link" href="https://twitter.com/#!/<%=tweet.user.screen_name%>/status/<%=tweet.id_str%>" title="View on Twitter">
+                                    <%=tweet.text%>
+                                </a>
+                            </li>
+                        <% end %>
+                    </ul>
+            </div>
+      </div>
     </div>
+</div>
 
 </header>
 <%- @content %>

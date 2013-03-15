@@ -9,6 +9,10 @@
 ::-moz-selection {
 	background:pink; /* Firefox */
 }
+.twitter-follow-button{
+	margin: 5px -33px 0 0;
+	float:right;
+}
 @font-face
 {
 	font-family: Ambassador_Script;
@@ -23,6 +27,31 @@
 {
 	font-family: LetterGothicStd;
 	src: url('/font/LetterGothicStd.otf');
+}
+a{
+	color:#87CEFA;
+}
+a:hover{
+	color:#87CEFA;
+}
+#listed_post{
+	font-size: 17px;
+	list-style: circle;
+	padding: 4px 0;
+}
+#listed_post:hover{
+	list-style: square;
+}
+hr{
+	background: #333;
+	border: 0;
+	height: 1px;
+}
+.twitter_link{
+	color:#000;
+}
+.twitter_link:hover{
+	color:#fff;
 }
 .conf_logo{
 	font-family: LetterGothicStd;

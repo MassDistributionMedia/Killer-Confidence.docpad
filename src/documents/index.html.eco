@@ -8,14 +8,12 @@ scripts: home.js
     <div class="story">
         <div class="container">
             <div class="row">
-              <div class="span3">
                 <div class="alert alert-error">  
                   <a class="close" data-dismiss="alert">×</a>  
-                  <strong>Killer-Confidence.com is Under Construction.</strong><br/>
-                  The following is a work in progress.
-                  <a class="btn btn-danger pull-right" data-dismiss="alert" href="#">I Understand.</a>
+                  <span class="pull-left"><strong>Killer-Confidence.com is in active development.</strong><br/>
+                  New features are on the way. Follow <a href="kariadamskc"style="color:#333;">@KariAdamsKC</a>.</span>
+                  <a class="btn btn-danger pull-right" data-dismiss="alert" href="#" style="margin: 4px 0 0 19px;">Okay.</a>
                 </div> 
-              </div>
               <div class="span9">
                   <h1>The Kari Adams Show</h1>
                   <h3>Hosting the re-branded TV show, Killer Confidence.</h3>
@@ -42,8 +40,8 @@ scripts: home.js
 <!--#intro--> 
 <!-- /floating objects in background -->
 
-<!--#second-->
-<div id="blog">    
+<!--#second KC Blogs-->
+<div id="blog" style="display:none">    
         <div class="container">
         <div class="story">
 			<div class="row">
@@ -108,8 +106,7 @@ scripts: home.js
 <!--#second-->
 
 <!--#third-->
-<div id="convo"
->	<div class="container">
+<div id="convo" style="display:none">	<div class="container">
     <div class="story">
         <div class="row">
              
