@@ -46,7 +46,7 @@
                     </ul>
                     <%- @getTwitterFollowButton() %><%- @getFacebookFollowButton() %>
                 </div>
-                    <ul style="margin:2px -77px 0 0;" class="pull-right">
+                    <ul id="tweet" class="pull-right">
                         <% for tweet in @feedr.feeds.twitter: %>
                             <% continue  if tweet.in_reply_to_user_id %>
                             <li datetime="<%=tweet.created_at%>" class="pull-left">
@@ -68,7 +68,7 @@
     <div class="container">
         <div class="row">
     <span>&copy;2013 Killer-Confidence.com</span>
-    <span class="pull-right muted"> Web &copy; <a target="_new"class="muted"title="MassDistributionMedia.com"href="http://massdistributionmedia.com">MDM</a> </span>
+    <span class="muted" id="MDM"> Web &copy; <a target="_new"class="muted"title="MassDistributionMedia.com"href="http://massdistributionmedia.com">MDM</a> </span>
         </div>
     </div>
 </footer>

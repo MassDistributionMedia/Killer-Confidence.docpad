@@ -13,6 +13,10 @@
 	margin: 5px -33px 0 0;
 	float:right;
 }
+#tweet{
+	margin:2px -77px 0 0;
+	clear:both;
+}
 .facebook-follow-button{
 	float: right;
 	width: 111px;
@@ -279,6 +283,7 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear; }
 /* footer */
 .footer span{ color:#fff; font-size:19px;}
 .footer{padding:21px 0px 22px; background:#000; width:100%;}
+#MDM{float: right;}
 
 
 @media only screen and (max-width:768px) {
@@ -312,10 +317,12 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear; }
 	}
 }
 @media only screen and (max-width:767px) {
+	body{margin-left:-20px}
 	h1{font-size:40px;}
 	h2{font-size:20px;}
 	h3,h4{ font-family:18px;}
 	p{ font-size:14px;}
+	#social{margin-left:-1px}
 	#convo .thumbnails li p, #convo .span4 p{font-size:14px;}
 	#convo .span5{width: 286px;}
 	#convo .span9 .grid .span5{float:left;margin-right: 10px;}
@@ -323,8 +330,9 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear; }
     float: right;
     width: 309px;
 	}
+	.alert{display:none}
 	.btn.btn-navbar{ min-width: 0;
     padding:10px 10px 10px 13px;
     width: 20px;}
-	
+	#MDM{float: left}
 }
