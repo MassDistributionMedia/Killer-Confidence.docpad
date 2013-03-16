@@ -43,6 +43,9 @@ a{
 a:hover{
 	color:#87CEFA;
 }
+.clear{
+	clear:both;
+}
 #listed_post{
 	font-size: 17px;
 	list-style: circle;
@@ -318,6 +321,7 @@ transition:all 0.3s linear; -moz-transition:all 0.3s linear; }
 }
 @media only screen and (max-width:767px) {
 	body{margin-left:-20px}
+	#tweet{display:none}
 	h1{font-size:40px;}
 	h2{font-size:20px;}
 	h3,h4{ font-family:18px;}
