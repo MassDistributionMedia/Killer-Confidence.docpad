@@ -29,10 +29,7 @@ docpadConfig = {
 			url: "http://killer-confidence.com"
 
 			services:
-	            facebookLikeButton:
-	                applicationId: '221359268009894'
-	            twitterTweetButton: 'kariadamskc'
-	            googlePlusOneButton: '115708162848145266605'
+	            fbAppId: '221359268009894'
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [

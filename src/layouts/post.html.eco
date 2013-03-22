@@ -10,4 +10,5 @@ layout: default
 	<br>
 	<%- @getAddThisBlock('vert16','right:13px;top:115px;background:transparent', false) %>
 	<br>
+	<%- @getFacebookLike('xfbml', 'false','button_count','777','false','arial','dark','recommend' ) %>
 </section>

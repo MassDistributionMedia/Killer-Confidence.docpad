@@ -27,8 +27,8 @@
     "url": "https://github.com/MassDistributionMedia/Killer-Confidence.com.git"
   },
   "engines": {
-    "node": "0.8.x",
-    "docpad": "6.26"
+    "node": ">=0.8.22",
+    "docpad": "6.26.1"
   },
   "dependencies": {
     "docpad": "6.26",
@@ -43,7 +43,6 @@
     "docpad-plugin-stylus": "2.x",
     "docpad-plugin-text": "2.x",
     "docpad-plugin-gdocs": "2.0.7",
-    "docpad-plugin-facebookcomments": "2.0.1",
     "docpad-plugin-addthis": "2.0.2"
   },
   "devDependencies": {
