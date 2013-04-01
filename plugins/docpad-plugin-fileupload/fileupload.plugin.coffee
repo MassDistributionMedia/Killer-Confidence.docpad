@@ -5,37 +5,6 @@ module.exports = (BasePlugin) ->
 		# Name
 		name: 'fileupload'
 
-		# Create Server and Express Application
-		###
-		express = require("express")
-		http = require("http")
-		app = express()
-
-		# Add our Application Stuff
-		app.use express.bodyParser()
-		app.use express.methodOverride()
-		app.use app.router
-
-		# Add DocPad to our Application
-		docpadInstanceConfiguration =
-		  
-		  # Give it our express application and http server
-		  serverExpress: app
-		  serverHttp: server
-		  
-		  # Tell it not to load the standard middlewares (as we handled that above)
-		  middlewareStandard: false
-
-		docpadInstance = require("docpad").createInstance(docpadInstanceConfiguration, (err) ->
-		  return console.log(err.stack)  if err
-		  
-		  # Tell DocPad to perform a generation, extend our server with its routes, and watch for changes
-		  docpad.action "generate server watch", (err) ->
-		    console.log err.stack  if err
-
-		)
-		###
-
 		# Config
 		config:
 			collectionName: 'files'
@@ -47,7 +16,7 @@ module.exports = (BasePlugin) ->
 						<label for="file">Filename:</label>
 						<input type="file" name="file" id="file" value="Upload"><br>
 						<input type="submit" name="submit" value="Submit">
-						</form>
+					</form>
 				</section>
 				""".replace(/^\s+|\n\s*|\s+$/g,'')
 

@@ -1,0 +1,46 @@
+{
+  "name": "docpad-plugin-uploadfile",
+  "version": "2.0.0",
+  "description": "Upload files.",
+  "homepage": "https://github.com/mikeumus/docpad-plugin-gdocs",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "upload", "upload-file", "file"
+  ],
+  "author": {
+    "name": "MDM Inc",
+    "email": "sales@mdm.cc",
+    "url": "http://mdm.cm"
+  },
+  "maintainers": [
+    {
+      "name": "Michael Mooring",
+      "email": "mike@mdm.cm",
+      "url": "http://mdm.cm"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Michael Mooring",
+      "email": "mike@mdm.cm",
+      "url": "http://mdm.cm"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/mikeumus/docpad-plugin-gdocs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeumus/docpad-plugin-gdocs"
+  },
+  "engines": {
+    "node": "0.8.22",
+    "docpad": "6.26.1"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "main": "./uploadfile.plugin.coffee"
+}

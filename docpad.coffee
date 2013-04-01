@@ -14,6 +14,10 @@ docpadConfig = {
         # Disable the Pokemon Plugin
         # pokemon: false
         persona: false
+        fileupload: false
+
+    # Upload Directory
+    uploadDir: '/uploads'
 
 	# =================================
 	# Template Data
